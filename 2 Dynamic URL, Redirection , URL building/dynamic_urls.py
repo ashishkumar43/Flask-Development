@@ -15,9 +15,21 @@ def welcome_rohan():
     return "<h1>Welcome to rohan's Page!</h1>" 
 
 #we can make it dynamic by using path parameters.
-@app.route("/welcome/<name")
+@app.route("/welcome/<name>")
 def welcome(name):
     return f"<h1>Hi {name.title()},you are Welcome to this page!</h1>"
 
+#we can make it dynamic by using path parameters.
+@app.route("/welcome/<gender>")
+def gender(gender):
+    return f"<h1>Hi,Your gender is {gender} and you are Welcome to this page!</h1>"
+
 if __name__=="__main__":
     app.run(debug=True)   #It will generate the log file.
+    
+   
+
+
+
+ 
+    
