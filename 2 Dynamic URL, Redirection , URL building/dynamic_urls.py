@@ -24,6 +24,13 @@ def welcome(name):
 def gender(gender):
     return f"<h1>Hi,Your gender is {gender} and you are Welcome to this page!</h1>"
 
+
+#we can make it dynamic by using path parameters.
+@app.route("/welcome/<Age>")
+def age(age):
+    return f"<h1>Hi,Your age is {age} and you are Welcome to this page!</h1>"
+
+
 if __name__=="__main__":
     app.run(debug=True)   #It will generate the log file.
     
