@@ -31,6 +31,11 @@ def age(age):
     return f"<h1>Hi,Your age is {age} and you are Welcome to this page!</h1>"
 
 
+#we can make it dynamic by using path parameters.
+@app.route("/welcome/<int:salary>")
+def salary_emp(salary):
+    return f"<h1>Hi, Your Salary of whole month is {salary}</h1>"
+
 if __name__=="__main__":
     app.run(debug=True)   #It will generate the log file.
     
