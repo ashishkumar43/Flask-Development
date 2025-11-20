@@ -9,7 +9,7 @@ app.config["SESSION_TYPE"]="Filesystem"
 Session(app)
 
 @app.route("/")
-@app.route("/home")
+@app.route("/home") 
 def home():   # name of our key.(user_name) 
     return render_template("home.html",title="Home") 
 
