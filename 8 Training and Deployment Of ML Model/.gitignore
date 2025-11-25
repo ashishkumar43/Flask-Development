@@ -139,6 +139,8 @@ celerybeat.pid
 .env
 .envrc
 .venv
+Flask_env/
+Flaskdeploy/
 env/
 venv/
 ENV/

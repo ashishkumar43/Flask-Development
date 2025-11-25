@@ -6,3 +6,4 @@ feature-engine
 xgboost
 joblib
 matplotlib
+Flask
