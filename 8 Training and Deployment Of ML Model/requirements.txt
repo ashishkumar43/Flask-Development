@@ -1,9 +1,6 @@
-numpy
 pandas
 scikit-learn
-streamlit
 feature-engine
-xgboost
-joblib
-matplotlib
-Flask
+flask
+flask-wtf
+gunicorn
